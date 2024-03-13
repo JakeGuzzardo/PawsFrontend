@@ -1,0 +1,48 @@
+.card-style {
+    width: 80%;
+    border-radius: 0;
+}
+
+.accordion-button {
+    padding: .75rem 1rem;
+    /* Example padding, adjust as needed */
+}
+
+.cardTitle {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteButton {
+    position: absolute;
+    right: .5rem;
+    margin: .5rem;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    color: red;
+}
+
+.deleteButton:hover {
+    color: darkred;
+}
+
+.editButton {
+    position: absolute;
+    right: 2.5rem;
+    margin: .5rem;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    color: blue;
+}
+
+.editButton:hover {
+    color: darkblue;
+}

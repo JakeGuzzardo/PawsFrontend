@@ -1,0 +1,15 @@
+.selectWalker {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.createWalker {
+    border: 1px solid #f5f5f5;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 10rem;
+    background-color: #f5f5f5;
+}
